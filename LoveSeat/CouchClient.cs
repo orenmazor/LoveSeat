@@ -37,6 +37,14 @@ namespace LoveSeat
         }
 
         /// <summary>
+        /// CouchClient constructor using URI
+        /// </summary>
+        /// <param name="uri">the full uri for parsing</param>
+        public CouchClient(string uri)
+        {
+            
+        }
+        /// <summary>
         /// Constructs the CouchClient and gets an authentication cookie (10 min)
         /// </summary>
         /// <param name="host">The hostname of the CouchDB instance</param>
